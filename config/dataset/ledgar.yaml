@@ -1,0 +1,26 @@
+name: coastalcph/lex_glue
+subset: ledgar
+
+splits:
+  train: train
+  validation: validation
+  test: test
+
+text_col: text
+label_col: label
+target_col: is_money
+
+money_labels:
+  - Base Salary
+  - Benefits
+  - Costs
+  - Expenses
+  - Fees
+  - Indemnifications
+  - Indemnity
+  - Insurances
+  - Payments
+  - Tax Withholdings
+  - Taxes
+  - Use Of Proceeds
+  - Withholdings

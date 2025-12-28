@@ -1,0 +1,6 @@
+name: microsoft/deberta-v3-base
+lr: 2e-05
+epochs: 10
+accelerator: auto
+devices: auto
+log_every_n_steps: 10

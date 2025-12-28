@@ -1,0 +1,16 @@
+defaults:
+  - dataset: ledgar
+  - model: deberta-v3-base
+  - _self_
+
+data_dir: data/ledgar/processed
+log_dir: logs/train
+
+checkpoint:
+  dir: artifacts/checkpoints
+  metric: val_f1
+  mode: max
+
+ml_flow:
+  tracking_uri:
+  experiment_name:

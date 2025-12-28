@@ -1,0 +1,6 @@
+defaults:
+  - dataset: ledgar
+  - _self_
+
+raw_dir: data/ledgar/raw
+out_dir: data/ledgar/processed

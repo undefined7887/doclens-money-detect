@@ -1,0 +1,7 @@
+[core]
+    remote = yandex
+['remote "yandex"']
+    url = s3://hse-mlops2-hw2/doclens/dvc
+    endpointurl = https://storage.yandexcloud.net
+    region = ru-central1
+    allow_anonymous_login = true
